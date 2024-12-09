@@ -37,9 +37,9 @@ To create Python virtual environment
 python3 -m venv venv
 
 To activate Python virtual environment
-# For bash/zsh users:
+#### For bash/zsh users:
 source venv/bin/activate  
-# For fish shell users:
+#### For fish shell users:
 source venv/bin/activate.fish
 
 ### 6. Install Required Python Libraries
