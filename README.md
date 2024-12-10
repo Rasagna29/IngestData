@@ -91,10 +91,10 @@ To connect to the database using a client:
 5. You can now view the newly created tables and its columns as defined in the create_tables.py script and also data in these tables
 
 #### Note: 
-When DBeaver (or any other client) is open and you try to run Python scripts that interact with a DuckDB database, you might encounter a conflict due to DuckDB's file-based locking mechanism. DuckDB ensures that only one process can write to the database at a time. If DBeaver (or another process) has the database open, other scripts cannot access or modify the database concurrently. To resolve this:
-
-Close or disconnect the database in DBeaver (or the other client) before running the script.
-Alternatively, you can run DBeaver in read-only mode to prevent write conflicts.
+When DBeaver (or any other client) is open and you try to run Python scripts that interact with a DuckDB database, you might encounter a conflict due to DuckDB's file-based locking mechanism. DuckDB ensures that only one process can write to the database at a time. If DBeaver (or another process) has the database open, other scripts cannot access or modify the database concurrently. 
+To resolve this:
+   1. Close or disconnect the database in DBeaver (or the other client) before running the script.
+   2. Alternatively, you can run DBeaver in read-only mode to prevent write conflicts.
 
 Congratulations!
 You have successfully created a DuckDB database using a Python script and connected to it with DBeaver.
