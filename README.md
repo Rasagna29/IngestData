@@ -1,15 +1,12 @@
-# IngestData
+# IngestDataWithPython
 
 This project is designed for educational purposes. It demonstrates how to set up a DuckDB database and interact with it using Python for data ingestion. Redistribution, modification, or copying of this project is strictly prohibited.
 
-## Installation and Setup
-Follow the steps below to set up the environment and tools for this project:
-
 ### 1. Clone the Repository
 Clone the repository to your local machine:
-git clone [https://github.com/Rasagna29/IngestData.git](https://github.com/Rasagna29/IngestData.git)
+git clone [https://github.com/Rasagna29/IngestDataWithPython.git](https://github.com/Rasagna29/IngestDataWithPython.git)
 
-## Installation Steps
+## Installation and Setup
 
 Follow these steps to set up the environment and tools:
 
@@ -22,7 +19,7 @@ Install it using Homebrew:
 
 brew install python
 
-### 3, Install virtual Environment
+### 3. Install virtual Environment
 pip install virtualenv
 
 ### 4. Set Up the Project Directory
@@ -58,7 +55,7 @@ pip install apache-airflow
 Run below to see version of airflow
 python -c "import airflow; print(airflow.__version__)"
 
-### Exit Virtual Environment
+Exit Virtual Environment
 exit
 
 ### 7. Create a Python script for the DuckDB database setup:
@@ -85,12 +82,11 @@ mkdir data/
 
 ### 9. Connect to the Database Using a Client
 To connect to the database using a client:
-
-  Download and install DBeaver.
-  Open DBeaver and create a new database connection.
-  Select DuckDB as the database type.
-  Browse to the database file located at: /Users/rasagna/ingest_data/data/first_database.duckdb
-  You can now view the newly created table and its columns as defined in the create_duckdb_db.py script.
+1. Download and install DBeaver.
+2. Open DBeaver and create a new database connection.
+3. Select DuckDB as the database type.
+4. Browse to the database file located at: /Users/rasagna/ingest_data_with_python/data/first_database.duckdb
+5. You can now view the newly created table and its columns as defined in the create_duckdb_db.py script.
 
 Congratulations!
 You have successfully created a DuckDB database using a Python script and connected to it with DBeaver.
