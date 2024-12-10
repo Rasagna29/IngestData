@@ -23,9 +23,9 @@ brew install python
 pip install virtualenv
 
 ### 4. Set Up the Project Directory
-mkdir ingest_data/
+mkdir ingest_data_with_python/
 
-cd ingest_data/
+cd ingest_data_with_python/
 
 ### 5. Create and Activate a Virtual Environment
 To keep the dependencies isolated, create and activate a Python virtual environment:
@@ -60,7 +60,7 @@ exit
 
 ### 7. Create a Python script for the DuckDB database setup:
 
-Create scripts directory in ingest_data/
+Create scripts directory in ingest_data_with_python/
   mkdir scripts/
   cd scripts
   nano create_duckdb_db.py (content of file available in scripts directory in main branch)
@@ -78,7 +78,7 @@ mkdir data/
     source venv/bin/activate  
 
   Run the script to create a DuckDB database named first_database.duckdb
-    python /Users/rasagna/ingest_data/scripts/create_duckdb_db.py
+    python /Users/rasagna/ingest_data_with_python/scripts/create_duckdb_db.py
 
 ### 9. Connect to the Database Using a Client
 To connect to the database using a client:
