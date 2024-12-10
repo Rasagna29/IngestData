@@ -1,4 +1,4 @@
-# IngestData
+# IngestDataWithPython
 
 This project is designed for educational purposes. It demonstrates how to set up a DuckDB database and interact with it using Python for data ingestion. Redistribution, modification, or copying of this project is strictly prohibited.
 
@@ -7,7 +7,7 @@ Follow the steps below to set up the environment and tools for this project:
 
 ### 1. Clone the Repository
 Clone the repository to your local machine:
-git clone [https://github.com/Rasagna29/IngestData.git](https://github.com/Rasagna29/IngestData.git)
+git clone [https://github.com/Rasagna29/IngestDataWithPython.git](https://github.com/Rasagna29/IngestDataWithPython.git)
 
 ## Installation Steps
 
