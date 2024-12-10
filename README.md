@@ -2,14 +2,11 @@
 
 This project is designed for educational purposes. It demonstrates how to set up a DuckDB database and interact with it using Python for data ingestion. Redistribution, modification, or copying of this project is strictly prohibited.
 
-## Installation and Setup
-Follow the steps below to set up the environment and tools for this project:
-
 ### 1. Clone the Repository
 Clone the repository to your local machine:
 git clone [https://github.com/Rasagna29/IngestDataWithPython.git](https://github.com/Rasagna29/IngestDataWithPython.git)
 
-## Installation Steps
+## Installation and Setup
 
 Follow these steps to set up the environment and tools:
 
@@ -22,7 +19,7 @@ Install it using Homebrew:
 
 brew install python
 
-### 3, Install virtual Environment
+### 3. Install virtual Environment
 pip install virtualenv
 
 ### 4. Set Up the Project Directory
@@ -58,7 +55,7 @@ pip install apache-airflow
 Run below to see version of airflow
 python -c "import airflow; print(airflow.__version__)"
 
-### Exit Virtual Environment
+Exit Virtual Environment
 exit
 
 ### 7. Create a Python script for the DuckDB database setup:
