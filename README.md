@@ -82,12 +82,11 @@ mkdir data/
 
 ### 9. Connect to the Database Using a Client
 To connect to the database using a client:
-
-  Download and install DBeaver.
-  Open DBeaver and create a new database connection.
-  Select DuckDB as the database type.
-  Browse to the database file located at: /Users/rasagna/ingest_data/data/first_database.duckdb
-  You can now view the newly created table and its columns as defined in the create_duckdb_db.py script.
+1. Download and install DBeaver.
+2. Open DBeaver and create a new database connection.
+3. Select DuckDB as the database type.
+4. Browse to the database file located at: /Users/rasagna/ingest_data_with_python/data/first_database.duckdb
+5. You can now view the newly created table and its columns as defined in the create_duckdb_db.py script.
 
 Congratulations!
 You have successfully created a DuckDB database using a Python script and connected to it with DBeaver.
