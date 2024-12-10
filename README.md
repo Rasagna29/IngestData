@@ -30,10 +30,10 @@ cd ingest_data_with_python/
 ### 5. Create and Activate a Virtual Environment
 To keep the dependencies isolated, create and activate a Python virtual environment:
 
-To create Python virtual environment 
+##### To create Python virtual environment 
 python3 -m venv venv
 
-To activate Python virtual environment
+##### To activate Python virtual environment
 #### For bash/zsh users:
 source venv/bin/activate  
 #### For fish shell users:
